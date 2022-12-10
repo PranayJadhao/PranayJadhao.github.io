@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily:{
-      signature:["Great Vibes"]
-    },
+      signature:["Greate Vibes"],
+    }
   },
   plugins: [],
 }

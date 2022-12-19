@@ -17,7 +17,14 @@ const About = () => {
         </br>
 
         <p className='text-xl ml-20'>
-        Aspiring full Stack MERN Developer. I love to make projects which are helpful for masses and serve as a great helpful entity.
+        I am currently doing my BE in mechanical engineering from datta meghe college of engineering and reserch wardha. But later on I got interset in website development and coading that's why I joined Masai school which offers a 30 weeks full time course on a full stack web development programme. At Masai school we get hands-on experience to learn front end and backend technologies. 
+ I love to make projects which are helpful for masses and serve as a great helpful entity.
+        </p>
+        <br>
+        </br>
+        <p className='text-xl ml-20'>
+      
+ I love to make projects which are helpful for masses and serve as a great helpful entity.
         </p>
        
     </div>

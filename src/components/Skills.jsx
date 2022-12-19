@@ -79,7 +79,7 @@ const Skills = () => {
                 <p className='py-6'>Thease are the skills I have</p>
             </div>
 
-            <div  className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
+            <div  className='w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
 
                 {
                     skillsArray.map(({id,src,title,style})=>(

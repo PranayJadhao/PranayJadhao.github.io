@@ -13,26 +13,43 @@ const Home = () => {
                 </p>
 
                 <div>
-               
-                <button  className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-rfrom bg-cyan-500 to-blue-500'>
-                  <a href='/Pranay_Jadhao_Resume.pdf' 
-                   download={true}
+               <div className='flex gap-5'>
+               <button  className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-rfrom bg-cyan-500 to-blue-500'>
+                  <a href='https://drive.google.com/file/d/1YM226Fgqz5KorDpLFbBG7X5HXJuaMRne/view?usp=sharing' 
+                  //  download={true}
                         target="_blank"
                         rel="noreferrer">
-                  Resume
+                        
+                 View Resume
                         <span className='justify-center'>
                         <BsFillPersonLinesFill size={25} className='ml-1'/>
                         </span>
                   </a>
                    
                 </button>
+
+                <button  className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-rfrom bg-cyan-500 to-blue-500'>
+                  <a href='/Pranay_Jadhao_Resume.pdf' 
+                   download={true}
+                        target="_blank"
+                        rel="noreferrer">
+                        
+                 Download Resume
+                        <span className='justify-center'>
+                        <BsFillPersonLinesFill size={25} className='ml-1'/>
+                        </span>
+                  </a>
+                   
+                </button>
+               </div>
+               
             </div>
             </div>
             
             
             <div>
                <img src={HeroImage}/>
-                {/* <img src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt='my pic' className='rounded-2xl mx-auto w-2/3 md:w-full'/> */}
+              
             </div>
            
         </div>

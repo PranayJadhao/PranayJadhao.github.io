@@ -22,7 +22,7 @@ function App() {
        <Stats/>
        <Contact/>
 
-       <SocialLinks/>
+       {/* <SocialLinks/> */}
     </div>
   );
 }

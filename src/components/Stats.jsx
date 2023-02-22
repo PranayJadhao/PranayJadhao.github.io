@@ -4,7 +4,7 @@ import React from "react";
 const Stats = () => {
   return (
     // streak 
-    <div name='Github Stats' className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen py-9'>
+    <div name='Github Stats' className='bg-zinc-500 w-full text-white md:h-screen py-9'>
 
     <div className='max-w-screen-lg px-4 py-3 mx-auto flex flex-col justify-center w-full h-full'>
 

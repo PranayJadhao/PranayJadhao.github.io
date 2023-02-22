@@ -5,21 +5,22 @@ const Calender = () => {
   const selectLastHalfYear = (contributions) => {
     const currentYear = new Date().getFullYear();
     const currentMonth = new Date().getMonth();
-    const shownMonths = 10;
+    const shownMonths = 12;
 
     return contributions.filter((day) => {
       const date = new Date(day.date);
       const monthOfDay = date.getMonth();
 
       return (
-        date.getFullYear() === currentYear &&
+        date.getFullYear() === currentYear 
+        &&
         monthOfDay > currentMonth - shownMonths &&
         monthOfDay <= currentMonth
       );
     });
   };
   return (
-    <div name="Github Calender" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen '>
+    <div name="Github Calender" className='bg-zinc-500 w-full text-white md:h-screen '>
     <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
 
     
@@ -32,8 +33,8 @@ const Calender = () => {
     <div >
       <GitHubCalendar
         style={{ margin: "auto" }}
-        username="saurabh0413"
-        transformData={selectLastHalfYear}
+        username="PranayJadhao"
+        //transformData={selectLastHalfYear}
         blockSize={20}
         fontSize={20}
       >

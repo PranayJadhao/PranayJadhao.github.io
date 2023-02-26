@@ -66,7 +66,7 @@ const Navbar = () => {
                     }
                     <div className='flex gap-5' onClick={()=>window.open("https://drive.google.com/file/d/1YM226Fgqz5KorDpLFbBG7X5HXJuaMRne/view?usp=sharing")}>
                <button  className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-rfrom bg-orange-500 to-orange-300'>
-                  <a href='Pranay_Jadhao_Resume.pdf' 
+                  <a href='fw20_0823-Pranay_Jadhao_Resume.pdf' 
                    download={true}
                         target="_blank"
                         rel="noreferrer">

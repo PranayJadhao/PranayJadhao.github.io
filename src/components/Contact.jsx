@@ -17,12 +17,13 @@ const Contact = () => {
             </div> */}
             <div className='flex gap-8 justify-center items-center pb-5'>
                 <p>Mobile No.: 7020798429</p>
-                <p>Email: pranayjadhao95@gmail.com</p>
+                <a target={'_blank'} href='mailto:pranayjadhao95@gmail.com'>   <p>Email: pranayjadhao95@gmail.com</p></a>
+             
 
             </div>
             <div className='flex gap-10 justify-center items-center pb-5'>
-             <a href='https://www.linkedin.com/in/pranay-jadhao-b322b7259/'> <button className='flex gap-3  justify-around item-center'> LinkedIn <FaLinkedin size={30}/></button></a>   
-              <a href='https://github.com/PranayJadhao'> <button className='flex gap-3'>GitHub <FaGithub size={30}/></button></a> 
+             <a target={'_blank'} href='https://www.linkedin.com/in/pranay-jadhao-b322b7259/'> <button className='flex gap-3  justify-around item-center'> LinkedIn <FaLinkedin size={30}/></button></a>   
+              <a target={'_blank'} href='https://github.com/PranayJadhao'> <button className='flex gap-3'>GitHub <FaGithub size={30}/></button></a> 
                 
             </div>
 

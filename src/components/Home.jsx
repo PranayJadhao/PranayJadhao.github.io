@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroImage from "../assects/heroImage.jpg";
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import fw20_0823_Pranay_Jadhao_Resume from "../assects/Resume/fw20_0823_Pranay_Jadhao_Resume.pdf"
 const Home = () => {
   return (
     <div  name='home' className=' h-screen w-full bg-zinc-500  px-20 pt-10 '>
@@ -13,12 +14,12 @@ const Home = () => {
                 </p>
 
                 <div>
-               <div className='flex gap-5' onClick={()=>window.open("https://drive.google.com/file/d/1YM226Fgqz5KorDpLFbBG7X5HXJuaMRne/view?usp=sharing")}>
+               <div className='flex gap-5' >
                <button  className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-rfrom bg-orange-500 to-orange-300'>
-                  <a href='fw20_0823-Pranay_Jadhao_Resume.pdf' 
-                   download={true}
+                  <a href={'fw20_0823_Pranay_Jadhao_Resume'}  download onClick={()=>window.open("https://drive.google.com/file/d/1YM226Fgqz5KorDpLFbBG7X5HXJuaMRne/view?usp=sharing")}
+                  
                         target="_blank"
-                        rel="noreferrer">
+                     >
                         
                  Resume
                         <span className='justify-center'>

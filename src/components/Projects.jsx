@@ -67,7 +67,7 @@ const Projects = () => {
         </div>
 
         <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-12 sm:px-0'>
-            {
+            {/* {
                 projectsArray.map(({id,src,demo,code,description,tech,type,site})=>(
                     <div key={id} className='shadow-md shadow-zinc-600 rounded-lg  bg-zinc-600'>
                     <a href={site} target="_blank">
@@ -101,6 +101,13 @@ const Projects = () => {
                     </div>
                 </div>
                 ))
+            } */}
+            {
+                projectsArray.map(({id,src})=>{
+                    <div>
+                        
+                    </div>
+                })
             }
           </div>
 

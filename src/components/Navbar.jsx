@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import {FaBars,FaTimes} from "react-icons/fa"
 import styled from  "styled-components"
 import {Link} from "react-scroll"
-
+import fw20_0823_Pranay_Jadhao_Resume from "../assects/fw20_0823_Pranay_Jadhao_Resume.pdf"
 
 const Navbar = () => {
 
@@ -65,16 +65,17 @@ const Navbar = () => {
                       ))
                     }
                     <div className='flex gap-5' onClick={()=>window.open("https://drive.google.com/file/d/1YM226Fgqz5KorDpLFbBG7X5HXJuaMRne/view?usp=sharing")}>
-               <button  className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-rfrom bg-orange-500 to-orange-300'>
-                  <a href='fw20_0823-Pranay_Jadhao_Resume.pdf' 
-                   download={true}
+                    <button  className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-rfrom bg-orange-500 to-orange-300'>
+                  <a href={fw20_0823_Pranay_Jadhao_Resume}  
+                  download 
+                  onClick={()=>window.open("https://drive.google.com/file/d/1YM226Fgqz5KorDpLFbBG7X5HXJuaMRne/view?usp=sharing")}
                         target="_blank"
-                        rel="noreferrer">
-                        
-                 Resume
-                        <span className='justify-center'>
+                     >
                        
-                        </span>
+                        Resume
+                      
+              
+                       
                   </a>
                    
                 </button>
@@ -94,7 +95,7 @@ const Navbar = () => {
                       <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-orange-200 to-orange-400 '>
                       {
                       links.map(({link,id})=>(
-                        <li key={id} className='px-4 cursor-pointer capitalize font-medium text-black-500 hover:scale-105 duration-200'>
+                        <li key={id} className='px-4 cursor-pointer capitalize font-bold text-lg  text-black-500 hover:scale-105 duration-200 pb-5'>
                         <Link onClick={()=>setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
                         </li>
                       ))

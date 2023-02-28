@@ -17,7 +17,7 @@ const Stats = () => {
       <div style={{ width: "60%", margin: "auto"}}>
         <a href="https://github.com/PranayJadhao">
           <img
-            align="left"
+            align="center"
             src="https://github-readme-streak-stats.herokuapp.com/?user=PranayJadhao&hide_border=true&theme=react&hide_border=true&bg_color=0D1117"
           />
         </a>
@@ -41,6 +41,8 @@ const Stats = () => {
         
        
       </div>
+      <br></br>
+      
       <div  style={{
         width: "60%",
         //  height: "300px",
@@ -48,7 +50,7 @@ const Stats = () => {
         }}>
       <a href="https://github.com/PranayJadhao">
           <img
-            align="left"
+            align="center"
             src="https://github-readme-stats.vercel.app/api?username=PranayJadhao&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117" //stats
           />
         </a>

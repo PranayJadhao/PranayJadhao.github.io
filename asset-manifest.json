@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6428e3a2.css",
-    "main.js": "/static/js/main.a7ef7bb8.js",
+    "main.css": "/static/css/main.d35882d4.css",
+    "main.js": "/static/js/main.2a164784.js",
     "static/media/myntraProject.png": "/static/media/myntraProject.a110670c923aae3f3ece.png",
     "static/media/modensenseProject.png": "/static/media/modensenseProject.f14d3017b02514b7e263.png",
     "static/media/tripadvisorProject.png": "/static/media/tripadvisorProject.fc46c52e375121c319b0.png",
@@ -17,11 +17,11 @@
     "static/media/chakra.jpg": "/static/media/chakra.22937fcd5af2100437bd.jpg",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.6428e3a2.css.map": "/static/css/main.6428e3a2.css.map",
-    "main.a7ef7bb8.js.map": "/static/js/main.a7ef7bb8.js.map"
+    "main.d35882d4.css.map": "/static/css/main.d35882d4.css.map",
+    "main.2a164784.js.map": "/static/js/main.2a164784.js.map"
   },
   "entrypoints": [
-    "static/css/main.6428e3a2.css",
-    "static/js/main.a7ef7bb8.js"
+    "static/css/main.d35882d4.css",
+    "static/js/main.2a164784.js"
   ]
 }
